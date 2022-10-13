@@ -134,3 +134,27 @@ header nav ul li:last-of-type a{
     color: #1B1A1A;
     margin-bottom: 47px;
 }
+.process_step{
+    max-width: 259px;
+    text-align: center;
+}
+.process_step img{
+    margin-bottom: 15px;
+}
+.process_step h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #403E3B;
+    margin-bottom: 10px;
+}
+.process_step p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+}
