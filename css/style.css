@@ -158,3 +158,46 @@ header nav ul li:last-of-type a{
     line-height: 24px;
     color: #645C55;
 }
+
+.get_in_touch{
+    padding: 100px 0 117px 0;
+    background: #CEC4BC;
+}
+.get_in_touch .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.get_in_touch .d_flex{
+    align-items: center;
+}
+.get_in_touch h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;        
+    letter-spacing: 2px;
+    text-transform: uppercase;        
+    color: #645C55;
+}
+.get_in_touch p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;      
+    color: #1B1A1A;
+}
+.get_in_touch a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+    border-radius: 14px;
+    margin-top: 45px;
+    padding: 11px 20px;
+}
