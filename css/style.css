@@ -201,3 +201,35 @@ header nav ul li:last-of-type a{
     margin-top: 45px;
     padding: 11px 20px;
 }
+
+footer{
+    padding: 62px 0 60px 0;
+    background: #F7F7F7;
+}
+footer .container{
+    max-width: 1168px;
+    margin: auto;
+}
+footer .footer_content a{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.footer_content p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;   
+    color: #645C55;
+}
+footer ul{
+    list-style: none;
+    align-self: flex-end;
+    display: flex;
+}
+footer li:nth-child(2){
+    margin-left: 20px;
+}
+footer li:nth-child(3){
+    margin-left: 26px;
+}
