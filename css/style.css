@@ -219,6 +219,82 @@ header nav ul li:last-of-type a{
     margin-bottom: 96px;
 }
 
+.team{
+    padding: 96px 0 128px 0;
+}
+.team .container{
+    max-width: 1168px;
+}
+.team .d_flex{
+    justify-content: start;
+}
+.team_description{
+    max-width: 358px;
+    margin-right: 37px;
+}
+.team_description h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+    margin-bottom: 14px;
+}
+.team_description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+    margin-bottom: 41px;
+}
+.team_description a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    margin-left: 25px;
+}
+.team_members{
+    padding-top: 12px;
+}
+.member_card{
+    display: flex;
+    margin-bottom: 52px;
+}
+.member_img{
+    margin-right: 30px;
+}
+.member_data{
+    padding: 22px 30px 0 0;
+}
+.member_data p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+.member_data span{
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+.team .first_column{
+    margin-right: 114px;
+}
+
 .get_in_touch{
     padding: 100px 0 117px 0;
     background: #CEC4BC;
