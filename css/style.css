@@ -272,6 +272,9 @@ header nav ul li:last-of-type a{
     display: flex;
     margin-bottom: 52px;
 }
+.team .team_members .member_card:last-child{
+    margin-bottom: 0;
+}
 .member_img{
     margin-right: 30px;
 }
