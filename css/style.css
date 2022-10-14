@@ -263,6 +263,10 @@ header nav ul li:last-of-type a{
 }
 .team_members{
     padding-top: 12px;
+    width: 280px;
+}
+.team .first_column{
+    margin-right: 114px;
 }
 .member_card{
     display: flex;
@@ -290,9 +294,6 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     line-height: 14px;
     color: #645C55;
-}
-.team .first_column{
-    margin-right: 114px;
 }
 
 .get_in_touch{
