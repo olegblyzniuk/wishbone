@@ -281,6 +281,37 @@ header nav ul li:last-of-type a{
     margin-bottom: 96px;
 }
 
+.swirling_staircase{
+    min-height: 600px;
+    background-image: url(../images/swirling_staircase.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px;
+}
+.swirling_staircase .description{
+    max-width: 285px;
+}
+.swirling_staircase .description h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.swirling_staircase .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
 .team{
     padding: 96px 0 128px 0;
 }
