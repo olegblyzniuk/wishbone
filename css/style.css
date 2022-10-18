@@ -136,6 +136,37 @@ header nav ul li:last-of-type a{
     color: #645C55;
 }
 
+.marble_staircase{
+    min-height: 600px;
+    background-image: url(../images/marble_staircase.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+.marble_staircase .description{
+    max-width: 285px;
+}
+.marble_staircase .description h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.marble_staircase .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
 .process{
     padding:100px 0;
 }
@@ -302,9 +333,6 @@ header nav ul li:last-of-type a{
 .member_card{
     display: flex;
     margin-bottom: 52px;
-}
-.team .team_members .member_card:last-child{
-    margin-bottom: 0;
 }
 .member_img{
     margin-right: 30px;
