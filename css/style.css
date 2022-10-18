@@ -105,6 +105,37 @@ header nav ul li:last-of-type a{
     color: #1B1A1A;
 }
 
+.reeding_house{
+    min-height: 600px;
+    background-image: url(../images/reeding-house.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+.reeding_house .description{
+    max-width: 285px;
+}
+.reeding_house .description h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.reeding_house .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
 .process{
     padding:100px 0;
 }
