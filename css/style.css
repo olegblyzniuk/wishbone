@@ -348,6 +348,104 @@ header nav ul li:last-of-type a{
     line-height: 24px;
     color: #645C55;
 }
+.projects{
+    padding: 113px 0 111px;
+    background: #F7F7F7;
+}
+.projects .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.projects h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+}
+.projects p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 44px;
+}
+.projects .d_flex{
+    align-items: center;
+    margin-bottom: 53px;
+}
+.projects article{
+    max-width: 375px;
+    position: relative;
+    overflow: hidden;
+}
+.projects article:hover .describe{
+    bottom: 0;
+}
+.projects article img{
+    width: 100%;
+}
+.projects .describe{
+    bottom: -100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+.projects .describe h4{
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+}
+.projects .describe h4 span{
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+.projects .describe a{
+    text-decoration: none;
+    padding: 11px 20px;
+    background: #1B1A1A;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.projects a{
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+}
 
 .team{
     padding: 96px 0 128px 0;
