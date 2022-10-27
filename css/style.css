@@ -272,7 +272,7 @@ header nav ul li:last-of-type a{
 .customers_content{
     max-width: 460px;
     padding: 35px 9px 35px 0;
-    margin-right: 181px;
+    margin-right: 132px;
 }
 .customers_content h4{
     font-family: 'Poppins';
@@ -302,20 +302,17 @@ header nav ul li:last-of-type a{
     color: #ECE7E4;
 }
 .customers_group{
-    width: 128px;
+    max-width: 432px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 .customers_group a{
     display: block;
-}
-.first{
-    padding: 24px 0 8px 0;
-    margin-right: 96px;
-}
-.first a:first-child{
-    margin-bottom: 128px;
-}
-.second a:first-child{
-    margin-bottom: 96px;
+    width: 128px;
 }
 
 .swirling_staircase{
@@ -491,12 +488,13 @@ header nav ul li:last-of-type a{
 }
 .team_members{
     padding-top: 12px;
-    width: 280px;
-}
-.team .first_column{
-    margin-right: 114px;
+    max-width: 675px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .member_card{
+    width: 280px;
     display: flex;
     margin-bottom: 52px;
 }
