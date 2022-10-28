@@ -9,4 +9,51 @@
         max-width: 400px;
         margin-bottom: 30px;
     }
+    .content_holder h1 {
+        font-size: 60px;
+        line-height: 65px;
+        color: #1B1A1A;
+    }
+    .process .d_flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .process_step {
+        text-align: center;
+        max-width: 600px;
+        margin-bottom: 30px;
+    }
+    .process_step p {
+        max-width: 400px;
+        margin: auto;
+    }
+    .customers_content{
+        max-width: 430px;
+        margin-right: 40px;
+    }
+    .team {
+        padding: 96px 0 100px 0;
+    }
+    .team .d_flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team_description {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .team_description p {
+        max-width: 450px;
+        margin: auto;
+        margin-bottom: 41px;
+    }
+    .team_members {
+        padding-top: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
