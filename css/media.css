@@ -57,3 +57,16 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 834px) {
+    header nav ul li{
+        margin-left: 20px;
+    }
+    .customers_content p {
+        max-width: 350px;
+    }
+    .get_in_touch p {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -238,7 +238,15 @@ header nav ul li:last-of-type a{
     text-align: center;
 }
 .process_step img{
-    margin-bottom: 15px;
+    max-width: 117px;
+    display: inline-block;
+}
+.process .owl-carousel .owl-item img{
+    display: inline-block;
+}
+.owl-carousel.owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
 }
 .process_step h3{
     font-family: 'Poppins';
