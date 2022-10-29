@@ -5,6 +5,10 @@
 }
 
 @media only screen and (max-width: 884px) {
+    header, footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .content_holder p{
         max-width: 400px;
         margin-bottom: 30px;
@@ -36,12 +40,13 @@
         padding: 96px 0 100px 0;
     }
     .team .d_flex{
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .team_description {
         text-align: center;
-        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
         margin-bottom: 30px;
     }
     .team_description p {
@@ -49,16 +54,28 @@
         margin: auto;
         margin-bottom: 41px;
     }
+    .team_description a{
+        margin-left: 0;
+    }
     .team_members {
         padding-top: 12px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 100%;
+    }
+    .projects h3{
+        text-align: center;
+    }
+    .projects p{
+        text-align: center;
+    }
+    .projects .d_flex {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 835px) {
     header nav ul li{
         margin-left: 20px;
     }
@@ -68,5 +85,274 @@
     .get_in_touch p {
         font-size: 32px;
         line-height: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .who_we_are {
+        padding: 60px 0 0;
+        text-align: center;
+    }
+    .content_holder {
+        margin-bottom: 35px;
+    }
+    .content_holder p{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .content_holder a{
+        margin-left: 0;
+    }
+    .who_we_are .image_holder {
+        position: relative;
+        height: 500px;
+        width: 100%;
+    }
+    .who_we_are, .firm, .process, .customers, .projects, .team, .get_in_touch{
+        padding: 60px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .d_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .logo {
+        margin-bottom: 20px;
+    }
+    header nav{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    header nav ul {
+        justify-content: space-between;
+    }
+    .customers .d_flex {
+        flex-direction: column;
+    }
+    .customers_content {
+       max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 20px 0;
+        margin-right: 0;
+    }
+    .customers_content p{
+        margin: auto;
+    }
+    .customers .customers_group{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    header nav{
+        display: none;
+    }
+    .who_we_are, .firm, .process, .customers, .projects, .team,
+    .get_in_touch{
+        padding: 20px 15px;
+    }
+    .content_holder h3 {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .content_holder h1 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .content_holder p{
+        max-width: 300px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 11px;
+    }
+    .content_holder a{
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .firm .d_flex{
+        flex-direction: column;
+    }
+    .firm h3 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .description_firm p {
+        font-size: 9px;
+        line-height: 12px;
+        margin-bottom: 5px;
+        max-width: 300px;
+    }
+    .process h3 {
+        font-size: 9px;
+        line-height: 11px;
+        margin-bottom: 7px;
+    }
+    .process h2 {
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 16px;
+    }
+    .process_step h3{
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 10px;
+    }
+    .process_step p {
+        max-width: 300px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .member_data p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .member_data span{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .customers_content h4{
+        font-size: 9px;
+        line-height: 11px;
+        margin-bottom: 7px;
+    }
+    .customers_content h3{
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 16px;
+    }
+    .customers_content p{
+        max-width: 300px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .customers_group {
+        max-width: 300px;
+        padding: 0 15px;
+    }
+    .customers_group a{
+        margin-bottom: 10px;
+    }
+    .projects .d_flex{
+        margin-bottom: 10px;
+    }
+    .projects h3{
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+    .projects p{
+        max-width: 300px;
+        font-size: 10px;
+        line-height: 15px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    .projects article {
+        max-width: 50%;
+        margin-bottom: 10px;
+    }
+    .projects .describe{
+        padding: 25px;
+    }
+    .projects .describe h4{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .projects .describe h4 span{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .projects .describe a{
+        padding: 6px 11px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .projects a{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .team_description{
+        margin-bottom: 10px;
+    }
+    .team_description h3{
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+    .team_description p{
+        max-width: 300px;
+        font-size: 10px;
+        line-height: 15px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    .team_description a{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .team_members{
+        display: block;
+    }
+    .member_card {
+        width: 220px;
+        display: flex;
+        justify-content: start;
+        margin-bottom: 10px;
+    }
+    .get_in_touch{
+        text-align: center;
+    }
+    .get_in_touch .d_flex {
+        flex-wrap: wrap;
+    }
+    .header_content{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .get_in_touch h3{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .get_in_touch p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .get_in_touch a {
+        display: block;
+        margin: auto;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 6px 10px;
+    }
+    footer{
+        padding: 20px 15px;
+        text-align: center;
+    }
+    footer .d_flex{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer_content{
+        width: 100%;
+    }
+    .footer_content a{
+        display: block;
+        margin-bottom: 7px;
+    }
+    .footer_content p{
+        font-size: 10px;
+    line-height: 14px;
+    }
+    .footer_content p:last-of-type{
+        margin-bottom: 8px;
+    }
+    footer ul{
+        align-items: center;
+        justify-content: space-between;
     }
 }
