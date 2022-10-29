@@ -151,7 +151,7 @@
     header nav{
         display: none;
     }
-    .who_we_are, .firm, .process, .customers, .projects, .team,
+    .firm, .process, .customers, .projects, .team,
     .get_in_touch{
         padding: 20px 15px;
     }
