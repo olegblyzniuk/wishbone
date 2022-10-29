@@ -356,3 +356,17 @@
         justify-content: space-between;
     }
 }
+
+@media only screen and (max-width: 428px){
+    .customers_content{
+        margin-bottom: 15px;
+    }
+    .customers_group a{
+        display: block;
+        width: 40%;
+        /* margin-bottom: 12px; */
+    }
+    .customers_group a img {
+        width: 100%
+    };
+}
