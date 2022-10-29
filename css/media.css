@@ -108,7 +108,7 @@
         height: 500px;
         width: 100%;
     }
-    .who_we_are, .firm, .process, .customers, .projects, .team, .get_in_touch{
+    .firm, .process, .customers, .projects, .team, .get_in_touch{
         padding: 60px 15px;
     }
 }
