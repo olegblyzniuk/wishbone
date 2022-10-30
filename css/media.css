@@ -4,6 +4,19 @@
     }
 }
 
+@media only screen and (max-width: 928px) {
+    .content_holder p{
+        max-width: 450px;
+    }
+    .projects .d_flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .customers_content{
+        margin-right: 60px;
+    }
+}
+
 @media only screen and (max-width: 884px) {
     header, footer{
         padding-left: 15px;
