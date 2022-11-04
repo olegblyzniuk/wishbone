@@ -49,6 +49,26 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     text-decoration: none;
 }
+.ui-draggable .ui-dialog-titlebar{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: #ECE7E4;
+    text-align: center;
+}
+.ui-dialog .ui-dialog-content{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* background: #403E3B; */
+}
+.ui-resizable-n, .ui-resizable-e, .ui-resizable-s, .ui-resizable-w{
+    background: #403E3B;
+}
 
 .who_we_are{
     padding: 137px 0 128px;
@@ -244,13 +264,6 @@ header nav ul li:last-of-type a{
     max-width: 117px;
     display: inline-block;
 }
-.process .owl-carousel .owl-item img{
-    display: inline-block;
-}
-.owl-carousel.owl-drag .owl-item{
-    display: flex;
-    justify-content: center;
-}
 .process_step h3{
     font-family: 'Poppins';
     font-style: normal;
@@ -267,6 +280,34 @@ header nav ul li:last-of-type a{
     font-size: 15px;
     line-height: 24px;
     color: #645C55;
+}
+.process .owl-carousel .owl-item img{
+    display: inline-block;
+}
+.owl-carousel.owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
+}
+.process .owl-carousel .owl-nav .owl-prev{
+    width: 30px;
+    height: 30px;
+    border-left: 2px solid #403E3B;
+    border-bottom: 2px solid #403E3B;
+    transform: rotate(45deg);
+}
+.process .owl-carousel .owl-nav .owl-next{
+    width: 30px;
+    height: 30px;
+    border-right: 2px solid #403E3B;
+    border-top: 2px solid #403E3B;
+    transform: rotate(45deg);
+}
+.process .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .customers{
