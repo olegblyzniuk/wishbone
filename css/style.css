@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 header{
     padding: 22px 0;
@@ -17,17 +18,22 @@ header{
     display: flex;
     justify-content: space-between;
 }
+header .d_flex{
+    align-items: center;
+}
 header .logo{
     display: inline-block;
 }
-header nav ul{
+header .navbar .nav-links{
     list-style: none;
     display: flex;
+    align-items: center;
 }
-header nav ul li{
+header .navbar .nav-links li{
     margin-left: 32px;
 }
-header nav ul li a{
+header .navbar .nav-links li a{
+    display: block;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -36,7 +42,18 @@ header nav ul li a{
     text-decoration: none;
     color: #1B1A1A;
 }
-header nav ul li:last-of-type a{
+header .navbar .nav-links li a::after{
+    content: '';
+    display: block;
+    background-color: #1B1A1A;
+    width: 0%;
+    height: 3px;
+    transition: 0.3s ease all;
+}
+header .navbar .nav-links li a:hover::after{
+    width: 100%;
+}
+header .navbar .nav-links li:last-of-type a{
     padding: 11px 20px;
     background: #1B1A1A;
     border-radius: 14px;
@@ -48,6 +65,14 @@ header nav ul li:last-of-type a{
     letter-spacing: 0.4px;
     color: #FFFFFF;
     text-decoration: none;
+}
+header .navbar .nav-links li:last-of-type a::after{
+    display: none;
+}
+header .navbar i{
+    display: none;
+    color: #1B1A1A;
+    cursor: pointer;
 }
 .ui-draggable .ui-dialog-titlebar{
     font-family: 'Poppins';
